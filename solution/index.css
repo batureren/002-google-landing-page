@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-size: 13px;
     font-family: Arial, sans-serif;
+    
 }
 
 .icon-menu{
@@ -144,18 +145,25 @@ form:hover{
 }
 
 footer{
+    height: 60px;
     background-color: #F2F2F2;
-    position: fixed;
-    bottom: 0;
+    position: relative;
+    top: 340px;
 }
 
 .left-footer{
-    margin: 10px;
+    background-color: #F2F2F2;
     float: left;
+    position: relative;
+    bottom: 0px;
+    margin: 10px;
+
 }
 
 .right-footer{
-    padding-left: 1360px;
+    background-color: #F2F2F2;
+    position: relative;
+    bottom:0px;
     margin: 10px;
     float: right;
 }
